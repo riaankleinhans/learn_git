@@ -1,4 +1,4 @@
-# CNCF Project Template Repository
+# Let's test making a PR
 
 This is a [template repository][template-repo] for CNCF projects created by [CNCF SIG Contributor
 Strategy][contrib-strat]. You can use it to either start a new repository that
