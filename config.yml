@@ -1,0 +1,10 @@
+slug: PQCA
+landscapeMemberClasses:
+  - name: Premier Membership
+    category: Premier
+  - name: General Membership
+    category: General
+  - name: Associate Membership
+    category: Associate
+landscapeMemberCategory: PQCA Members
+memberSuffix: ' (member)'

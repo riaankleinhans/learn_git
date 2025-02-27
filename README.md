@@ -1,37 +1,20 @@
-# Let's test making a PR
+# Post-Quantum Cryptography Alliance Landscape
 
-This is a [template repository][template-repo] for CNCF projects created by [CNCF SIG Contributor
-Strategy][contrib-strat]. You can use it to either start a new repository that
-has all the required files for a CNCF project or just grab the particular files
-that you need.
+This repository contains the data files and images required to generate the [PQCA landscape](https://pqca.landscape2.io). The software that generates it can be found at the [cncf/landscape2](https://github.com/cncf/landscape2) repository. Please see its [README file](https://github.com/cncf/landscape2#landscape2) for more information about how it works.
 
-## Steps
+## New entries
 
-1. Click **Use this template** and create a copy of this repository.
+To add a new entry to the landscape, please open a pull request to add it in alphabetical order to the [landscape.yml](landscape.yml) file. The logo must be added to the `hosted_logos` directory (in SVG format) and referenced from the `logo` field.
 
-    ![Green button that says "Use this template"](https://user-images.githubusercontent.com/1368985/95903529-e9c32f00-0d5b-11eb-8723-4369f7c9e044.png)
-1. Remove **.github/settings.yml**. This is not a template and contains
-   configuration specific our repository. You should not keep this file.
-1. Customize every [required template](#required-templates) and address each TODO item.
+> [!NOTE]
+> At the moment the landscape is generated daily, so once your PR is merged your changes should be visible before 24 hours.
 
-### Customize Templates
+## Corrections
 
-Each file is a template with instructions to customize the contents for your project.
-Most files use comments with TODO to call out where you need to make changes. We recommend
-viewing the files in raw or text form so that you can see the comments. 
+If you find an error in the landscape, please open a pull request with the suggested changes to the [landscape.yml](landscape.yml) file. Some information displayed in the landscape is obtained from Crunchbase or GitHub, so errors on it should be fixed in the corresponding source.
 
-For example in markdown files, we use `<!-- TODO: ... -->` to provide additional
-guidance or indicate where action is required but you won't see those comments
-when you view the markdown file in GitHub unless you view the raw text.
+## License
 
-## Required Templates
+The generated landscape contains data received from [Crunchbase](http://www.crunchbase.com). This data is not licensed pursuant to the Apache License. It is subject to Crunchbase’s Data Access Terms, available at [https://data.crunchbase.com/docs/terms](https://data.crunchbase.com/docs/terms), and is only permitted to be used with Linux Foundation landscape projects.
 
-* [LICENSE](LICENSE)
-* [CONTRIBUTING.md](CONTRIBUTING.md)
-* [README-template.md](README-template.md)
-
-[template-repo]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
-[contrib-strat]: https://github.com/cncf/sig-contributor-strategy/blob/master/README.md
-
-Note: This is the README file for the templates repo. Please use [README-template.md](README-template.md)
-as a template for your project README.
+Everything else is under the Apache License, Version 2.0, except for projects and products logos, which are generally copyrighted by the company that created them, and are simply cached here for reliability. The generated landscape and the [landscape.yml](landscape.yml) file are alternatively available under the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/).

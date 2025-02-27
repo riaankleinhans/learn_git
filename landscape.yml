@@ -1,0 +1,258 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/data.schema.json
+
+landscape:
+  - category:
+    name: PQCA Members
+    subcategories:
+      - subcategory:
+        name: Premier
+        items:
+          - item:
+            name: Amazon Web Services, Inc. (member)
+            homepage_url: https://amazon.com/
+            logo: amazon_web_services_inc.svg
+            description: Amazon.com, Inc. is an online retailer, offering new, refurbished and used products including books, DVDs, CDs, MP3 downloads, software, video games, electronics,
+              furniture, apparel, jewelry, and toys. The company also manufactures consumer electronics (notably the Amazon Kindle and the Kindle Fire) and provides cloud computing services.
+              Amazon is a publicly owned company and is based out of Seattle, WA.
+            crunchbase: https://www.crunchbase.com/organization/amazon-web-services
+            twitter: https://twitter.com/amazon
+            extra:
+              linkedin_url: https://www.linkedin.com/company/amazon
+          - item:
+            name: Cisco Systems, Inc. (member)
+            homepage_url: https://cisco.com/
+            logo: cisco_systems_inc.svg
+            description: "Cisco (NASDAQ: CSCO) is the worldwide technology leader that has been making the Internet work since 1984. Their people, products, and partners help society
+              securely connect and seize tomorrow's digital opportunity today. Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and/or its affiliates in the
+              U.S. and other countries."
+            crunchbase: https://www.crunchbase.com/organization/cisco
+            twitter: https://twitter.com/Cisco
+            extra:
+              linkedin_url: https://www.linkedin.com/company/cisco
+          - item:
+            name: Google LLC (member)
+            homepage_url: https://google.com/
+            logo: google_llc.svg
+            description: Founded in 1998, Google, Inc. is a multinational corporation that provides Internet-related services and products, including an internet search engine, software,
+              cloud computing, and advertising technologies.
+            crunchbase: https://www.crunchbase.com/organization/google
+            twitter: https://twitter.com/Google
+            extra:
+              linkedin_url: https://www.linkedin.com/company/google
+          - item:
+            name: International Business Machines Corporation (member)
+            homepage_url: https://ibm.com/
+            logo: international_business_machines_corporation.svg
+            description: |-
+              Founded in 1911, International Business Machines (IBM) is a multinational computer, technology, and IT consulting corporation that manufactures and sells computer hardware and software, and offers infrastructure services, hosting services, and consulting services. They are headquartered in Armonk, New York.
+
+              --- Merged Data:
+
+              IBM is an IT technology and consulting firm providing computer hardware, software, and infrastructure and hosting services.
+            crunchbase: https://www.crunchbase.com/organization/ibm
+            twitter: https://twitter.com/IBM
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ibm
+          - item:
+            name: NVIDIA Corporation (member)
+            homepage_url: https://nvidia.com/
+            logo: nvidia_corporation.svg
+            description: Founded in 1993, NVIDIA is an AI computing company. The company is headquartered in Santa Clara, California.
+            crunchbase: https://www.crunchbase.com/organization/nvidia
+            twitter: https://twitter.com/nvidia
+            extra:
+              linkedin_url: https://www.linkedin.com/company/nvidia
+      - subcategory:
+        name: General
+        items:
+          - item:
+            name: Die QRL Stiftung (member)
+            homepage_url: https://qrl.foundation/
+            logo: die_qrl_stiftung.svg
+            organization:
+              name: Die QRL Stiftung
+              linkedin: https://www.linkedin.com/company/the-qrl-foundation
+            extra:
+              linkedin_url: https://www.linkedin.com/company/the-qrl-foundation
+          - item:
+            name: Global Data Quantum (member)
+            homepage_url: https://globaldataquantum.com/
+            logo: global_data_quantum.svg
+            description: Dataquantum Global Data Quantum Somos una startup tecnológica especializada en el campo de la inteligencia artificial, el big data y la computación cuántica. 
+              Nos encontramos en la primera línea de la revolución de la computación cuántica, una tecnolog...
+            organization:
+              name: Global Data Quantum
+              linkedin: https://www.linkedin.com/company/globaldmtech
+            extra:
+              linkedin_url: https://www.linkedin.com/company/globaldmtech
+          - item:
+            name: Information Security (member)
+            homepage_url: https://infoseccorp.com/
+            logo: information_security.svg
+            description: Information Security Corporation provides software solutions for simplifying the creation, deployment, and management of X.509 Public Key Infrastructure. Their
+              CertAgent is the first NIAP validated CA approved for use in NSA/CSS’s Commercial Solutions ...
+            organization:
+              name: Information Security
+              linkedin: https://www.linkedin.com/company/infoseccorp
+            extra:
+              linkedin_url: https://www.linkedin.com/company/infoseccorp
+          - item:
+            name: IntellectEU (member)
+            homepage_url: https://intellecteu.com/
+            logo: intellecteu.svg
+            description: '- International technology company  - SWIFT Integration Partner  - Founding member of Linux Foundation’s Hyperledger  - IBM Partner for Blockchain implementations  -
+              Expertise: financial integration; middleware; DLT development  - 10+ years of financia...'
+            crunchbase: https://www.crunchbase.com/organization/intellecteu
+            twitter: https://twitter.com/IntellectEU
+            extra:
+              linkedin_url: https://www.linkedin.com/company/intellecteu
+          - item:
+            name: Keyfactor (member)
+            homepage_url: https://keyfactor.com/
+            logo: keyfactor.svg
+            description: Control your cryptography with Keyfactor, the leader in PKI as-a-Service and crypto-agility solutions for a cloud-first world.
+            crunchbase: https://www.crunchbase.com/organization/certified-security-solutions
+            twitter: https://twitter.com/Keyfactor
+            extra:
+              linkedin_url: https://www.linkedin.com/company/wearekeyfactor
+          - item:
+            name: Meta Platforms, Inc. (member)
+            homepage_url: https://meta.com/
+            logo: meta_platforms_inc.svg
+            description: Founded in 2004 and headquartered in Menlo Park, California, Facebook is an American online social media and social networking service company that provides
+              various products to connect and share.
+            crunchbase: https://www.crunchbase.com/organization/facebook
+            twitter: https://twitter.com/Meta
+            extra:
+              linkedin_url: https://www.linkedin.com/company/facebook
+          - item:
+            name: QANplatform (member)
+            homepage_url: https://qanplatform.com/
+            logo: qanplatform.svg
+            description: QANplatform is a quantum-resistant Layer 1 hybrid blockchain enabling developers to code web3 solutions in any language. Build smart contracts and Web3 solutions
+              in any programming language in minutes.
+            organization:
+              name: QANplatform
+              linkedin: https://www.linkedin.com/company/qanplatform
+            extra:
+              linkedin_url: https://www.linkedin.com/company/qanplatform
+          - item:
+            name: QuSecure Inc (member)
+            homepage_url: https://qusecure.com/
+            logo: qusecure_inc.svg
+            description: QuSecure offers post-quantum cryptography software with agility, controls, and insights to protect critical data in the quantum era.
+            organization:
+              name: QuSecure Inc
+          - item:
+            name: SandboxAQ (member)
+            homepage_url: https://sandboxaq.com/
+            logo: sandboxaq.svg
+            description: SandboxAQ is an enterprise SaaS company that combines AI and Quantum technologies to solve complex societal problems. Their innovative products include a crypto
+              agile Security Suite for encryption remediation, quantum sensors for insights in critical a...
+            organization:
+              name: SandboxAQ
+              linkedin: https://www.linkedin.com/company/sandboxaq
+            extra:
+              linkedin_url: https://www.linkedin.com/company/sandboxaq
+          - item:
+            name: Thales SA (member)
+            homepage_url: https://thalesgroup.com/
+            logo: thales_sa.svg
+            description: Thales Group is a multinational company in defense and aerospace industries with many business units.  The French government is a major shareholder.
+            crunchbase: https://www.crunchbase.com/organization/thales-group
+            twitter: https://twitter.com/thalesgroup
+            extra:
+              linkedin_url: https://www.linkedin.com/company/thales
+          - item:
+            name: Trail of Bits (member)
+            homepage_url: https://trailofbits.com/
+            logo: trail_of_bits.svg
+            description: Since 2012, Trail of Bits has helped secure some of the world’s most targeted organizations and products. We combine high-­end security research with a real­...
+            crunchbase: https://www.crunchbase.com/organization/trail-of-bits
+            twitter: https://twitter.com/trailofbits
+            extra:
+              linkedin_url: https://www.linkedin.com/company/trail-of-bits
+      - subcategory:
+        name: Associate
+        items:
+          - item:
+            name: CRYPTOGRAPGHY DEVELOPMENT INITIATIVE IN NIGERIA (member)
+            homepage_url: https://cdin.ng/
+            logo: cryptograpghy_development_initiative_in_nigeria.svg
+            organization:
+              name: CRYPTOGRAPGHY DEVELOPMENT INITIATIVE IN NIGERIA
+          - item:
+            name: Rensselaer Polytechnic Institute (member)
+            homepage_url: https://rpi.edu/
+            logo: rensselaer_polytechnic_institute.svg
+            description: Rensselaer Polytechnic Institute is a private research university located in Troy, New York. The university is one among a small group of polytechnic universities
+              in the United States which tend to be primarily devoted to the instruction of technical arts and applied sciences.
+            crunchbase: https://www.crunchbase.com/organization/rensselaer-polytechnic-institute
+            twitter: https://twitter.com/rpi
+            extra:
+              linkedin_url: https://www.linkedin.com/company/rensselaer-polytechnic-institute
+          - item:
+            name: shanghai qizhi institute (member)
+            homepage_url: https://sqz.ac.cn/
+            logo: shanghai_qizhi_institute.svg
+            description: Shanghai Qizhi Research Institute is a prominent AI research institute founded in 2023, dedicated to advancing AI technology and fostering organizational connectivity.
+            organization:
+              name: shanghai qizhi institute
+          - item:
+            name: University of Waterloo (member)
+            homepage_url: https://uwaterloo.ca/
+            logo: university_of_waterloo.svg
+            description: The University of Waterloo is a public research university with a main campus located in Waterloo, Ontario, Canada. The university offers academic programs administered
+              by six faculties and ten faculty-based schools. The university also operates four satellite campuses and four affiliated university colleges.
+            crunchbase: https://www.crunchbase.com/organization/university-of-waterloo
+            twitter: https://twitter.com/UWaterloo
+            extra:
+              linkedin_url: https://www.linkedin.com/company/university-of-waterloo
+          - item:
+            name: US General Services Administration (member)
+            homepage_url: https://gsa.gov/
+            logo: us_general_services_administration.svg
+            description: |-
+              The General Services Administration is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies.
+
+              --- Merged Data:
+
+              The General Services Administration is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies.
+            crunchbase: https://www.crunchbase.com/organization/us-general-services-administration
+            twitter: https://twitter.com/USGSA
+            extra:
+              linkedin_url: https://www.linkedin.com/company/gsa
+          - item:
+            name: USP - Universidade de São Paulo (member)
+            homepage_url: https://usp.br/
+            logo: usp_universidade_de_sao_paulo.svg
+            description: The University of São Paulo (USP) is a prestigious public university in Brazil, known for its excellence in teaching, research, and university extension across
+              various fields of knowledge. With a history dating back to 1934, USP has eleven campuses and...
+            organization:
+              name: USP - Universidade de São Paulo
+              linkedin: https://www.linkedin.com/company/hospital-das-cl-nicas-da-fac.-de-medicina-de-rib.-preto-da-univ.-de-s-o-paulo---usp
+            extra:
+              linkedin_url: https://www.linkedin.com/company/hospital-das-cl-nicas-da-fac.-de-medicina-de-rib.-preto-da-univ.-de-s-o-paulo---usp
+          - item:
+            name: Veilid Foundation (member)
+            homepage_url: https://veilid.org/
+            logo: veilid_foundation.svg
+            description: Veilid Foundation is a non-profit organization dedicated to developing and maintaining a privacy-focused communication platform and protocol to safeguard human
+              and civil rights. They lead the development of the Veilid Framework, providing a secure envi...
+            organization:
+              name: Veilid Foundation
+  - category:
+    name: Projects
+    subcategories:
+      - name: Projects
+        items:
+          - name: Open Quantum Safe
+            description: Software for prototyping quantum-resistant cryptography
+            homepage_url: https://openquantumsafe.org/
+            logo: oqs.png
+            repo_url: https://github.com/open-quantum-safe/liboqs
+          - name: PQ Code Package
+            description: Building high-assurance implementations of post-quantum cryptography algorithms
+            homepage_url: https://github.com/pq-code-package
+            logo: pqca.png
+            repo_url: https://github.com/pq-code-package/mlkem-c-embedded
